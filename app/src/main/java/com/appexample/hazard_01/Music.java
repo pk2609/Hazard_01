@@ -32,7 +32,7 @@ import org.json.JSONObject;
 import java.io.UnsupportedEncodingException;
 import java.util.ArrayList;
 import java.util.List;
-
+//eight//
 public class Music extends AppCompatActivity implements NavigationView.OnNavigationItemSelectedListener {
 
     private List<Main2Activity> newsFeed = new ArrayList<>();
