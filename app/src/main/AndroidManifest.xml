@@ -21,8 +21,17 @@
         <activity
             android:name=".Home"
             android:label="Hour Zero"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
-        <activity android:name=".About"></activity>
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".About" />
+        <activity android:name=".Top" />
+        <activity android:name=".Gaming" />
+        <activity android:name=".Education" />
+        <activity android:name=".Entertainment" />
+        <activity android:name=".Music" />
+        <activity android:name=".World" />
+        <activity android:name=".Tech" />
+        <activity android:name=".Sports" />
+        <activity android:name=".Finance"></activity>
     </application>
 
 </manifest>
