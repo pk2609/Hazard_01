@@ -14,7 +14,6 @@ import android.support.v7.widget.Toolbar;
 import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
-import android.widget.Adapter;
 import android.widget.Toast;
 
 import com.android.volley.Cache;
@@ -39,7 +38,7 @@ public class Music extends AppCompatActivity implements NavigationView.OnNavigat
     private List<Main2Activity> newsFeed = new ArrayList<>();
     PullRefreshLayout layout;
     private RecyclerView recyclerView;
-    private RecyclerView.Adapter mAdapter;
+    private Adapter mAdapter;
     LinearLayoutManager linearLayoutManager;
 
     @Override
@@ -204,7 +203,7 @@ public class Music extends AppCompatActivity implements NavigationView.OnNavigat
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
-        getMenuInflater().inflate(R.menu.main, menu);
+        getMenuInflater().inflate(R.menu.home, menu);
         return true;
     }
 
@@ -239,7 +238,7 @@ public class Music extends AppCompatActivity implements NavigationView.OnNavigat
         int id = item.getItemId();
 
         if (id == R.id.Home) {
-            Intent myIntent = new Intent(Music.this, MainActivity.class);
+            Intent myIntent = new Intent(Music.this, Home.class);
             Music.this.startActivity(myIntent);
 
         } else if (id == R.id.Top) {

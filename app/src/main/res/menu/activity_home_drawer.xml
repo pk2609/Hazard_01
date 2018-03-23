@@ -13,7 +13,7 @@
                 <item
                     android:id="@+id/Top"
                     android:icon="@drawable/ic_fiber_new_black_24dp"
-                    android:title="Top News" />
+                    android:title="Top News"/>
                 <item
                     android:id="@+id/Gaming"
                     android:icon="@drawable/ic_extension_black_24dp"

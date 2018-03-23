@@ -22,7 +22,7 @@ public class About extends AppCompatActivity {
         textView1 = (TextView) findViewById(R.id.textView);
         textView2 = (TextView) findViewById(R.id.textView2);
 
-        textView1.setText("About Me");
+        textView1.setText("Hazard 01");
         textView2.setText("This is an Android application that provides you the latest news related to various categories around us....\n\nWe are Hazard_01 as android app developers. You can contact us at: Mail : prakhar2609@gmail.com");
 
     }
