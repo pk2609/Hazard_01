@@ -16,7 +16,7 @@ import com.squareup.picasso.Picasso;
 
 import java.util.List;
 import java.util.Random;
-
+//ninth//
 public class Adapter extends RecyclerView.Adapter<Adapter.myviewholder>{
 
     private List<Main2Activity> myNews;
