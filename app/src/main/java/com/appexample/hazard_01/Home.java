@@ -1,9 +1,7 @@
 package com.appexample.hazard_01;
-//We are pushing here again//
+
+import android.content.Intent;
 import android.os.Bundle;
-import android.support.design.widget.FloatingActionButton;
-import android.support.design.widget.Snackbar;
-import android.view.View;
 import android.support.design.widget.NavigationView;
 import android.support.v4.view.GravityCompat;
 import android.support.v4.widget.DrawerLayout;
@@ -22,15 +20,6 @@ public class Home extends AppCompatActivity
         setContentView(R.layout.activity_home);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
-
-        FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
-        fab.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
-                        .setAction("Action", null).show();
-            }
-        });
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
         ActionBarDrawerToggle toggle = new ActionBarDrawerToggle(
@@ -67,7 +56,9 @@ public class Home extends AppCompatActivity
         int id = item.getItemId();
 
         //noinspection SimplifiableIfStatement
-        if (id == R.id.action_settings) {
+        if (id == R.id.about) {
+            Intent myIntent = new Intent(Home.this, About.class);
+            Home.this.startActivity(myIntent);
             return true;
         }
 
@@ -80,17 +71,43 @@ public class Home extends AppCompatActivity
         // Handle navigation view item clicks here.
         int id = item.getItemId();
 
-        if (id == R.id.nav_camera) {
+        if (id == R.id.Home) {
             // Handle the camera action
-        } else if (id == R.id.nav_gallery) {
+        } else if (id == R.id.Top) {
+            Intent myIntent = new Intent(Home.this, Top.class);
+            Home.this.startActivity(myIntent);
 
-        } else if (id == R.id.nav_slideshow) {
+        } else if (id == R.id.Gaming) {
+            Intent myIntent = new Intent(Home.this, Gaming.class);
+            Home.this.startActivity(myIntent);
 
-        } else if (id == R.id.nav_manage) {
+        } else if (id == R.id.Education) {
+            Intent myIntent = new Intent(Home.this, Education.class);
+            Home.this.startActivity(myIntent);
 
-        } else if (id == R.id.nav_share) {
+        } else if (id == R.id.Entertainment) {
+            Intent myIntent = new Intent(Home.this, Entertainment.class);
+            Home.this.startActivity(myIntent);
 
-        } else if (id == R.id.nav_send) {
+        } else if (id == R.id.Music) {
+            Intent myIntent = new Intent(Home.this, Music.class);
+            Home.this.startActivity(myIntent);
+
+        } else if (id == R.id.world) {
+            Intent myIntent = new Intent(Home.this, World.class);
+            Home.this.startActivity(myIntent);
+
+        } else if (id == R.id.Tech) {
+            Intent myIntent = new Intent(Home.this, Tech.class);
+            Home.this.startActivity(myIntent);
+
+        } else if (id == R.id.Sports) {
+            Intent myIntent = new Intent(Home.this, Sports.class);
+            Home.this.startActivity(myIntent);
+
+        } else if (id == R.id.Finance) {
+            Intent myIntent = new Intent(Home.this, Finance.class);
+            Home.this.startActivity(myIntent);
 
         }
 
