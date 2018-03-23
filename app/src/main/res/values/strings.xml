@@ -39,4 +39,6 @@ Comedian Amy Schumer may have contributed to the revival of this fake meme. She 
 Consult the experts. We know you’re busy, and some of this debunking takes time. But we get paid to do this kind of work. Between FactCheck.org, Snopes.com, the Washington Post Fact Checker and PolitiFact.com, it’s likely at least one has already fact-checked the latest viral claim to pop up in your news feed.\n\n
 FactCheck.org was among a network of independent fact-checkers who signed an open letter to Facebook’s Mark Zuckerberg suggesting that Facebook “start an open conversation on the principles that could underpin a more accurate news ecosystem on its News Feed.” We hope that conversation happens, but news readers themselves remain the first line of defense against fake news.\n\n
 On our Viral Spiral page, we list some of the claims we get asked about the most; all of our Ask FactChecks can be found here. And if you encounter a new claim you’d like us to investigate, email us at editor@factcheck.org.</string>
+    <string name="title_activity_music2">Music2</string>
+    <string name="section_format">Hello World from section: %1$d</string>
 </resources>

@@ -25,36 +25,50 @@
             android:name=".Home"
             android:label="Home"
             android:theme="@style/AppTheme.NoActionBar" />
-        <activity android:name=".About"
-            android:label="About"
-            android:theme="@style/AppTheme.NoActionBar"/>
-        <activity android:name=".Top"
+        <activity
+            android:name=".About"
+            android:label="About Us" />
+        <activity
+            android:name=".Top"
             android:label="Top"
-            android:theme="@style/AppTheme.NoActionBar"/>
-        <activity android:name=".Gaming"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Gaming"
             android:label="Gaming"
-            android:theme="@style/AppTheme.NoActionBar"/>
-        <activity android:name=".Education"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Education"
             android:label="Education"
-            android:theme="@style/AppTheme.NoActionBar"/>
-        <activity android:name=".Entertainment"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Entertainment"
             android:label="Entertainment"
-            android:theme="@style/AppTheme.NoActionBar"/>
-        <activity android:name=".Music"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Music"
             android:label="Music"
-            android:theme="@style/AppTheme.NoActionBar"/>
-        <activity android:name=".World"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".World"
             android:label="World"
-            android:theme="@style/AppTheme.NoActionBar"/>
-        <activity android:name=".Tech"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Tech"
             android:label="Tech"
-            android:theme="@style/AppTheme.NoActionBar"/>
-        <activity android:name=".Sports"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Sports"
             android:label="Sports"
-            android:theme="@style/AppTheme.NoActionBar"/>
-        <activity android:name=".Finance"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Finance"
             android:label="Finance"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Music2"
+            android:label="@string/title_activity_music2"
+            android:theme="@style/AppTheme.NoActionBar">
+        </activity>
     </application>
 
 </manifest>
