@@ -1,6 +1,7 @@
 package com.appexample.hazard_01;
 
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.NavigationView;
@@ -72,6 +73,17 @@ public class Home extends AppCompatActivity
         //noinspection SimplifiableIfStatement
         if (id == R.id.about) {
             Intent myIntent = new Intent(Home.this, About.class);
+            Home.this.startActivity(myIntent);
+            return true;
+        }
+        if (id == R.id.Logout) {
+            Intent myIntent = new Intent(Home.this, Home.class);
+            Toast.makeText(Home.this, "U are now logged out...", Toast.LENGTH_SHORT).show();
+            SharedPreferences settings = getSharedPreferences(Login.PREFS_NAME, 0); // 0 - for private mode
+            SharedPreferences.Editor editor = settings.edit();
+            editor.putBoolean("hasLoggedIn", false);
+            editor.commit();
+            // Toast.makeText(Login.this, "hiiiiiiiiiiiiiiiiiiiiiiiiiiiiii", Toast.LENGTH_LONG).show();
             Home.this.startActivity(myIntent);
             return true;
         }
