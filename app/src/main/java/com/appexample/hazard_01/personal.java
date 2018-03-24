@@ -1,5 +1,6 @@
 package com.appexample.hazard_01;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
@@ -29,7 +30,8 @@ public class personal extends AppCompatActivity {
         check2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-
+                Intent map =new Intent(personal.this, MapsActivity.class);
+                personal.this.startActivity(map);
             }
         });
     }
