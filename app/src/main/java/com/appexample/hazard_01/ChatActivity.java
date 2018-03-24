@@ -1,6 +1,7 @@
 package com.appexample.hazard_01;
 
 import android.app.Activity;
+import android.content.Intent;
 import android.database.DataSetObserver;
 import android.os.Bundle;
 import android.view.KeyEvent;
@@ -18,12 +19,15 @@ public class ChatActivity extends Activity {
     private EditText chatText;
     private Button buttonSend;
     private boolean side = false;
+    String mytext;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
         setContentView(R.layout.activity_chat);
+        Intent mainIntent = new Intent();
+        mytext = mainIntent.getStringExtra("text");
 
         buttonSend = (Button) findViewById(R.id.send);
 
@@ -63,7 +67,7 @@ public class ChatActivity extends Activity {
 
     private boolean sendChatMessage() {
         chatArrayAdapter.add(new ChatMessage(side, chatText.getText().toString()));
-        chatText.setText("");
+        chatText.setText("#music");
         side = !side;
         return true;
     }

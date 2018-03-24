@@ -17,7 +17,7 @@ public class Splash3 extends Activity {
         super.onCreate(icicle);
         getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN,
                 WindowManager.LayoutParams.FLAG_FULLSCREEN);
-        setContentView(R.layout.activity_splash);
+        setContentView(R.layout.activity_splash3);
 
         /* New Handler to start the Menu-Activity
          * and close this Splash-Screen after some seconds.*/
