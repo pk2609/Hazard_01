@@ -67,7 +67,17 @@
         <activity android:name=".Splash2" />
         <activity android:name=".Login" />
         <activity android:name=".Register" />
-        <activity android:name=".ChatActivity"></activity>
+        <activity android:name=".ChatActivity" />
+        <activity android:name=".Splash3" />
+        <activity android:name=".report"
+            android:label="Helpline..." />
+        <activity android:name=".form"
+            android:label="Report"
+            android:theme="@style/AppTheme.NoActionBar"/>
+        <activity android:name=".personal">
+            android:label="Personal"
+            android:theme="@style/AppTheme.NoActionBar"
+        </activity>
     </application>
 
 </manifest>

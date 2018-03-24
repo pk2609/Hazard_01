@@ -19,7 +19,6 @@ public class Splash2 extends Activity {
         getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN,
                 WindowManager.LayoutParams.FLAG_FULLSCREEN);
         setContentView(R.layout.activity_splash2);
-
         /* New Handler to start the Menu-Activity
          * and close this Splas2-Screen after some seconds.*/
         new Handler().postDelayed(new Runnable(){
@@ -30,11 +29,15 @@ public class Splash2 extends Activity {
                 if(hasLoggedIn)
                 {
                     Intent mainIntent = new Intent(Splash2.this, ChatActivity.class);
+                    String mytext = mainIntent.getStringExtra("text");
                     Splash2.this.startActivity(mainIntent);
+                    mainIntent.putExtra("mytext", mytext);
                     Splash2.this.finish();
                 }else {
                     Intent mainIntent = new Intent(Splash2.this, Login.class);
+                    String mytext = mainIntent.getStringExtra("text");
                     Splash2.this.startActivity(mainIntent);
+                    mainIntent.putExtra("mytext", mytext);
                     Splash2.this.finish();
                 }
             }

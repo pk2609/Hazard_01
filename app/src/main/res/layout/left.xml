@@ -13,8 +13,9 @@
         android:background="@drawable/textview"
         android:paddingBottom="8dp"
         android:paddingLeft="10dp"
+        android:backgroundTint="@color/black"
         android:paddingRight="10dp"
         android:paddingTop="5dp"
         android:text="Sampleleft"
-        android:textColor="#000" />
+        android:textColor="#fff" />
 </RelativeLayout>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+    <LinearLayout android:padding="16dp" android:orientation="vertical" android:background="#FFFFFF" android:layout_height="match_parent" android:layout_width="match_parent" xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:typeface="serif" android:textSize="40sp" android:textColor="#ce323234" android:text="Report" android:layout_marginTop="5dp" android:layout_marginBottom="16dp" android:layout_gravity="center_horizontal" android:id="@+id/contact_form_title"/>
+
+    <EditText android:layout_height="wrap_content" android:layout_width="fill_parent" android:inputType="textPersonName" android:hint="Name" android:backgroundTint="@color/colorPrimaryDark"/>
+
+    <EditText android:layout_height="wrap_content" android:layout_width="fill_parent" android:layout_marginTop="10dp" android:layout_marginBottom="10dp" android:inputType="textEmailAddress" android:hint="Email/Phone" android:backgroundTint="@color/colorPrimaryDark"/>
+
+    <EditText android:padding="5dp" android:layout_height="150dp" android:layout_width="fill_parent" android:layout_marginTop="10dp" android:layout_marginBottom="10dp" android:inputType="textMultiLine" android:hint="Your Message" android:backgroundTint="@color/colorPrimaryDark" android:singleLine="false" android:breakStrategy="balanced" android:fitsSystemWindows="true" android:gravity="top"/>
+
+    <CheckBox android:layout_height="wrap_content" android:layout_width="wrap_content" android:textSize="20sp" android:textColor="#ce323234" android:text="Share your location" android:layout_marginTop="10dp" android:layout_marginBottom="10dp" android:id="@+id/checkbox_meat" android:onClick="onCheckboxClicked"/>
+
+    <Button android:background="@color/colorPrimaryDark" android:layout_height="wrap_content" android:layout_width="wrap_content" android:textColor="#fff" android:text="Submit" android:layout_marginTop="10dp" android:layout_marginBottom="10dp" android:layout_gravity="center_horizontal" android:id="@+id/submit" android:paddingRight="70dp" android:paddingLeft="70dp" android:elevation="4dp"/>
+
+</LinearLayout>

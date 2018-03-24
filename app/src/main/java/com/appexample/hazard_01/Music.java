@@ -57,6 +57,7 @@ public class Music extends AppCompatActivity implements NavigationView.OnNavigat
             public void onClick(View view) {
                 Toast.makeText(Music.this, "Phase 3", Toast.LENGTH_SHORT).show();
                 Intent myIntent = new Intent(Music.this, Splash2.class);
+                myIntent.putExtra("mytext", "#music");
                 Music.this.startActivity(myIntent);
             }
         });
