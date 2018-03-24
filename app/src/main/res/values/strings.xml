@@ -41,4 +41,5 @@ FactCheck.org was among a network of independent fact-checkers who signed an ope
 On our Viral Spiral page, we list some of the claims we get asked about the most; all of our Ask FactChecks can be found here. And if you encounter a new claim you’d like us to investigate, email us at editor@factcheck.org.</string>
     <string name="title_activity_music2">Music2</string>
     <string name="section_format">Hello World from section: %1$d</string>
+    <string name="title_activity_maps">Map</string>
 </resources>
