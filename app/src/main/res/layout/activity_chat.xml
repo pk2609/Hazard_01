@@ -4,7 +4,7 @@
     android:layout_height="match_parent"
     android:background="#efefef"
     android:orientation="vertical"
-    tools:context=".MainActivity">
+    tools:context=".Home">
 
     <ListView
         android:id="@+id/msgview"
@@ -24,6 +24,7 @@
 
         <EditText
             android:id="@+id/msg"
+            android:hint=""
             android:layout_width="0dp"
             android:layout_height="fill_parent"
             android:layout_weight="2" />

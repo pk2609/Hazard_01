@@ -13,8 +13,10 @@ import java.util.List;
 class ChatArrayAdapter extends ArrayAdapter<ChatMessage> {
 
     private TextView chatText;
+    public TextView date;
     private List<ChatMessage> chatMessageList = new ArrayList<ChatMessage>();
     private Context context;
+
 
     @Override
     public void add(ChatMessage object) {
